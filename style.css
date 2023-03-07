@@ -21,6 +21,7 @@ header {
     background-color: #f0eef3;
     font-family: 'Lato', sans-serif;
     font-size: larger;
+    border-bottom: solid 5px;
 }
 
 h1, h2 {
