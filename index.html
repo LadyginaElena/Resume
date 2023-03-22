@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,74 +8,93 @@
     <title>Resume</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Oswald:wght@200;300;400;500;600;700&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Oswald:wght@200;300;400;500;600;700&family=Source+Sans+Pro&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <header>
-        <img src="./my_photo.jpg" alt="my_pthoto">
-        <div>
-            <h2 class="underline">Елена Ладыгина</h2>
-            <h2 class="title">QA engineer</h2>
-        </div>
-    </header>
-    <section>
-        <div class="left-colomn">
-        <article>
-            <h3>КОНТАКТЫ</h3>
-            <img class='svg' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"/>
-            <a href="https://github.com/LadyginaElena">My GitHub</a>
-            <img class='svg' src="svg_pictures/free_icon_1.svg"  alt="Telegram"/>
-            <a href="https://t.me/elena_arabel">@elena_arabel</a>
-            <img  class='svg' src="svg_pictures/6085454721601536315.svg"  alt="Email"/>
-            <a href="">ladygina.ev@mail.ru</a>
-            <img  class='svg' src="svg_pictures/linkedin-round-svgrepo-com.svg"  alt="Linkedin"/>
-            <a href="https://www.linkedin.com/in/elena-ladygina/">My linkedin</a>
-            <img  class='svg' src="svg_pictures/location_on_FILL1_wght200_GRAD0_opsz40.svg"  alt="Locaton"/>
-            <p>Krasnoyarsk</p>
-        </article>
-        <article>
-            <h3>НАВЫКИ</h3>
-            <ul>
-                <li>Составление тестовой документации на проекте Skylex и на учебном проекте с нуля (написание юзер-стори по основному функционалу приложения);</li>
-                <li>Знание методов тест-дизайна, написание чек-листов, тест-кейсов, отчета о тестировании <a href="https://drive.google.com/drive/folders/1s8gwpn5l3fR23GAJ3hnFRDutFE078B8Z?usp=sharing">ссылка на документацию на гугл-диске</a>;</li>
-                <li>Совместная работа с командой QA, написано 99 тест-кейсов по основному функционалу сайта для последующей автоматизации, найдено 12 багов;</li>
-                <li>Работа с карточками на доске Trello, ревью тест-кейсов других участников <a href="https://trello.com/b/RXDE2M57/psevdokod" >ссылка на доску Trello</a></li>
-                <li>Автоматизировано 40 тест-кейсов  UI c использованием Python+Pytest+Selenium (форма авторизации, сортировка товаров, страница корзины, оформление заказа)<a href="https://github.com/ivanovajulika/Sauce">ссылка на GitHub c проектом</a>;</li>
-                <li>Совместная работа с репозиторием Git, ведение разработки автоматизированных тестов на разных ветках и слияние их в главный проект (git pull, git push, git chekout branch);</li>
-                <li>Настройка CI/CD проекта с помощью GitHub Actions (запуск линтеров кода при pull request и прогон автотестов после мерджа в главную ветку;</li>
-                <li>Автоматизированное тестирование REST API на Python (библиотека request, отправка get,post,put,delete запросов)<a href="https://github.com/ivanovajulika/Api_Petstore">ссылка на GitHub c проектом по API</a>;</li>
-                <li>MySQL запросы от SELECT до JOIN двух таблиц <a href="https://github.com/LadyginaElena/My_SQL_homework">ссылка на GitHub c упражнениями по SQL</a></li>;</li>
-                <li>HTML, CSS основы (могу написать простую лендинг-страницу);</li>
-                <li>Postman создание и запуск коллекции, отправка запросов (GET,POST, PUT, DELETE), использование сниппетов на JS для получения тестовых данных из body ответа;</li>
-                <li>Запуск автотестов в Docker контейнере (составлене dockerfile и создание по нему image для запуска контейнера);</li>
-                <li>Отчет по прогону автотестов  в Allure с исторей прогонов опубликованный в GitHub Pages;</li>
-                <li>Создание виртуального окружения, настройка проекта.</li>
-            </ul>            
-        </article>
-        <article>
-            <h3>О СЕБЕ</h3>
-            <p></p>
-        </article> 
-        </div> 
-        <div class="rigth-colomn">
-        <article>
-            <h3>СТЕК</h3>
-            <p></p>
-        </article>
-        <article>
-            <h3>ОПЫТ РАБОТЫ</h3>
-            <p></p>
-        </article>
-        <article>
-            <h3>ОБРАЗОВАНИЕ</h3>
-            <p></p>
-        </article>
-        <article>
-            <h3>ЯЗЫКИ</h3>
-            <p>Английский - Intermediate В1</p>
-        </article>
-        </div>
-    </section>
+    <div class="container">
+        <header class="header">
+            <img src="./my_photo.jpg" alt="my_pthoto">
+            <div>
+                <h2 class="underline">Елена Ладыгина</h2>
+                <h2 class="title">QA engineer</h2>
+            </div>
+        </header>
+        <section class="left-colomn">
+            <article>
+                <h3>КОНТАКТЫ</h3>
+                <img class='svg' src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub"/>
+                <a class="link" href="https://github.com/LadyginaElena">My GitHub</a>
+                <img class='svg' src="svg_pictures/free_icon_1.svg" alt="Telegram"/>
+                <a class="link" href="https://t.me/elena_arabel">@elena_arabel</a>
+                <img class='svg' src="svg_pictures/6085454721601536315.svg" alt="Email"/>
+                <a class="link" href="mailto:ladygina.ev@mail.ru">ladygina.ev@mail.ru</a>
+                <img class='svg' src="svg_pictures/linkedin-round-svgrepo-com.svg" alt="Linkedin"/>
+                <a class="link" href="https://www.linkedin.com/in/elena-ladygina/">My linkedin</a>
+                <img class='svg' src="svg_pictures/location_on_FILL1_wght200_GRAD0_opsz40.svg" alt="Locaton"/>
+                <a class="link" href="https://yandex.ru/maps/-/CCUSiUdfGB">Krasnoyarsk</a>
+            </article>
+            <article>
+                <h3>НАВЫКИ</h3>
+                <ul>
+                    <li>Составление тестовой документации на проекте Skylex и на учебном проекте с нуля (написание
+                        юзер-стори по основному функционалу приложения);</li>
+                    <li>Знание методов тест-дизайна, написание чек-листов, тест-кейсов, отчета о тестировании <a
+                            href="https://drive.google.com/drive/folders/1s8gwpn5l3fR23GAJ3hnFRDutFE078B8Z?usp=sharing">ссылка
+                            на документацию на гугл-диске</a>;</li>
+                    <li>Совместная работа с командой QA, написано 99 тест-кейсов по основному функционалу сайта для
+                        последующей автоматизации, найдено 12 багов;</li>
+                    <li>Работа с карточками на доске Trello, ревью тест-кейсов других участников <a
+                            href="https://trello.com/b/RXDE2M57/psevdokod">ссылка на доску Trello</a></li>
+                    <li>Автоматизировано 40 тест-кейсов UI c использованием Python+Pytest+Selenium (форма
+                        авторизации, сортировка товаров, страница корзины, оформление заказа)<a
+                            href="https://github.com/ivanovajulika/Sauce">ссылка на GitHub c проектом</a>;</li>
+                    <li>Совместная работа с репозиторием Git, ведение разработки автоматизированных тестов на разных
+                        ветках и слияние их в главный проект (git pull, git push, git chekout branch);</li>
+                    <li>Настройка CI/CD проекта с помощью GitHub Actions (запуск линтеров кода при pull request и
+                        прогон автотестов после мерджа в главную ветку;</li>
+                    <li>Автоматизированное тестирование REST API на Python (библиотека request, отправка
+                        get,post,put,delete запросов)<a href="https://github.com/ivanovajulika/Api_Petstore">ссылка
+                            на GitHub c проектом по API</a>;</li>
+                    <li>MySQL запросы от SELECT до JOIN двух таблиц <a
+                            href="https://github.com/LadyginaElena/My_SQL_homework">ссылка на GitHub c упражнениями
+                            по SQL</a></li>;</li>
+                    <li>HTML, CSS основы (могу написать простую лендинг-страницу);</li>
+                    <li>Postman создание и запуск коллекции, отправка запросов (GET,POST, PUT, DELETE),
+                        использование сниппетов на JS для получения тестовых данных из body ответа;</li>
+                    <li>Запуск автотестов в Docker контейнере (составлене dockerfile и создание по нему image для
+                        запуска контейнера);</li>
+                    <li>Отчет по прогону автотестов в Allure с исторей прогонов опубликованный в GitHub Pages;</li>
+                    <li>Создание виртуального окружения, настройка проекта.</li>
+                </ul>
+            </article>
+            <article>
+                <h3>О СЕБЕ</h3>
+                <p></p>
+            </article>
+        </section>
+        <section class="rigth-colomn" >
+            <article >
+                <h3>СТЕК</h3>
+                <p></p>
+            </article>
+            <article>
+                <h3>ОПЫТ РАБОТЫ</h3>
+                <p></p>
+            </article>
+            <article>
+                <h3>ОБРАЗОВАНИЕ</h3>
+                <p></p>
+            </article>
+            <article>
+                <h3>ЯЗЫКИ</h3>
+                <p>Английский - Intermediate В1</p>
+            </article>
+        </section>
+    </div>
 </body>
+
 </html>
