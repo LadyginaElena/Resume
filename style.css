@@ -65,11 +65,12 @@ html,body{
     list-style-type: none;
 }
 .space{
-    padding-left: 20px;
+    padding-left: 25px;
 }
 
 article {
     display: inline-block;
+    margin-top: 20px;
 }
 
 a {
@@ -105,8 +106,14 @@ h3 {
     font-weight: bolder;
     color: black;
     padding-left: 1em;
+    margin-bottom: 10px;
 }
-
+h4 {
+    font-size: large;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
 li, p {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: large;
