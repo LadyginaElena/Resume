@@ -26,6 +26,8 @@ html,body{
 .svg {
     font-weight: 40px;
     height: 40px;
+    list-style-type: none;
+    margin-right: 10px;
 }
 
 .header {
@@ -35,6 +37,8 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 .colomn{
     display: flex;
@@ -119,5 +123,11 @@ li, p {
     font-size: large;
     color: black;
 }
-
+.stek {
+    font-weight: bold;
+    display: inline-block;
+}
+.contacts, .stecktech {
+    list-style-type: none;
+}
 
